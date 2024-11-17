@@ -23,8 +23,8 @@ This is a Flask web application that allows users to upload an image, select a l
 1. **Clone the repository:**
 
     ```sh
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/nishant9083/AI_MINI_PROJECT.git
+    cd AI_MINI_PROJECT
     ```
 
 2. **Install the required packages:**
@@ -33,10 +33,10 @@ This is a Flask web application that allows users to upload an image, select a l
     pip install -r requirements.txt
     ```
 
-3. **Ensure the upload and audio directories exist:**
+3. **Ensure the audio directories exist:**
 
     ```sh
-    mkdir -p uploads audio
+    mkdir -p audio
     ```
 
 4. **Prepare your model and workflow:**

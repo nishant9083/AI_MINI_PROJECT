@@ -3,3 +3,6 @@ gunicorn
 torch
 Pillow
 matplotlib
+transformers
+gTTS
+nltk
