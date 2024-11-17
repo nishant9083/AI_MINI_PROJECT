@@ -4,17 +4,13 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-commands = [
-    "ls",
+commands = [    
     "git clone https://github.com/AI4Bharat/IndicTrans2.git",
-    "cd IndicTrans2/huggingface_interface",
-    "ls",
+    "cd IndicTrans2/huggingface_interface",    
     "python3 -c \"import nltk; nltk.download('punkt')\"",
     "git clone https://github.com/VarunGumma/IndicTransToolkit",
     "ls",
-    "cd IndicTransToolkit",
-    "python3 -m pip install --editable ./",
-    "cd ..",
+    "cd IndicTransToolkit && python3 -m pip install --editable ./"
 ]
 
 
