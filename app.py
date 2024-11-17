@@ -1,3 +1,4 @@
+execute_commands()
 from flask import Flask, request, jsonify, render_template, send_file
 import os
 from workflow import image_to_text_to_audio
@@ -46,5 +47,4 @@ def get_audio(filename):
     return send_file(os.path.join(app.config['AUDIO_FOLDER'], filename))
 
 if __name__ == '__main__':
-    execute_commands()
     app.run(debug=True)

@@ -92,6 +92,21 @@ This is a Flask web application that allows users to upload an image, select a l
 - This example uses the `gTTS` library for text-to-speech conversion. Ensure it is included in your `requirements.txt`.
 - Adjust paths and configuration as needed for your specific environment and setup.
 
+
+## Citation
+
+```bibtex
+@article{
+    gala2023indictrans,
+    title={IndicTrans2: Towards High-Quality and Accessible Machine Translation Models for all 22 Scheduled Indian Languages},
+    author={Jay Gala and Pranjal A Chitale and A K Raghavan and Varun Gumma and Sumanth Doddapaneni and Aswanth Kumar M and Janki Atul Nawale and Anupama Sujatha and Ratish Puduppully and Vivek Raghavan and Pratyush Kumar and Mitesh M Khapra and Raj Dabre and Anoop Kunchukuttan},
+    journal={Transactions on Machine Learning Research},
+    issn={2835-8856},
+    year={2023},
+    url={https://openreview.net/forum?id=vfT4YuzAYA},
+    note={}
+}
+```
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
