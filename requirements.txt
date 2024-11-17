@@ -3,6 +3,16 @@ gunicorn
 torch
 Pillow
 matplotlib
-transformers
 gTTS
 nltk
+bitsandbytes
+scipy
+accelerate
+datasets
+sacremoses
+pandas
+regex
+mock
+transformers>=4.33.2
+mosestokenizer
+sentencepiece

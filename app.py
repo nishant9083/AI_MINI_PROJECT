@@ -1,8 +1,8 @@
+from prepare import execute_commands
 execute_commands()
 from flask import Flask, request, jsonify, render_template, send_file
 import os
 from workflow import image_to_text_to_audio
-from prepare import execute_commands
 
 # Initialize the Flask app
 app = Flask(__name__)
